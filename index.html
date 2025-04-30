@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PUBG Dropper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>PUBG Dropper</h1>
+  <div id="controls">
+    <label for="mapSelect">Select Map:</label>
+    <select id="mapSelect">
+      <option value="erangel">Erangel</option>
+      <option value="miramar">Miramar</option>
+      <option value="vikendi">Vikendi</option>
+      <option value="deston">Deston</option>
+      <option value="taego">Taego</option>
+      <option value="sanhok">Sanhok</option>
+      <option value="karakhin">Karakhin</option>
+      <option value="palamo">Palamo</option>
+    </select>
+    <button onclick="suggestDrop()">Suggest Drop</button>
+    <button> Confirm drop</button>
+  </div>
+  
+  <div id="dotCoordinates">
+    <p>Coordinates:</p>
+    <span id="Coordinates"></span>
+  </div>
+
+
+  <div id="map-container">
+    <img id="map" src="maps/erangel.jpg" alt="Map" />
+    <div id="dropDot" class="dot" style="display:none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
