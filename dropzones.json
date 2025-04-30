@@ -1,0 +1,45 @@
+{
+    "erangel": [
+      { "name": "Pochinki", "x": 47.5, "y": 53.2 },
+      { "name": "School", "x": 60.1, "y": 46.3 },
+      { "name": "Military Base", "x": 50.2, "y": 80.6 },
+      { "name": "Georgopol", "x": 27.5, "y": 33.1 },
+      { "name": "Mylta Power", "x": 82.0, "y": 76.8 }
+    ],
+    "miramar": [
+      { "name": "Pecado", "x": 50.1, "y": 55.5 },
+      { "name": "Los Leones", "x": 63.8, "y": 70.2 },
+      { "name": "El Pozo", "x": 26.7, "y": 41.1 },
+      { "name": "Chumacera", "x": 43.9, "y": 57.3 },
+      { "name": "Hacienda del Patrón", "x": 55.8, "y": 41.2 }
+    ],
+    "sanhok": [
+      { "name": "Bootcamp", "x": 49.5, "y": 49.0 },
+      { "name": "Paradise Resort", "x": 62.1, "y": 36.8 },
+      { "name": "Ruins", "x": 30.0, "y": 47.2 },
+      { "name": "Camp Alpha", "x": 22.5, "y": 20.1 },
+      { "name": "Camp Charlie", "x": 54.3, "y": 83.2 }
+    ],
+    "vikendi": [
+      { "name": "Castle", "x": 48.5, "y": 50.8 },
+      { "name": "Cosmodrome", "x": 66.0, "y": 26.4 },
+      { "name": "Villa", "x": 43.1, "y": 38.7 },
+      { "name": "Dobro Mesto", "x": 20.3, "y": 72.4 },
+      { "name": "Podvosto", "x": 60.7, "y": 53.5 }
+    ],
+    "taego": [
+      { "name": "Ho San", "x": 61.2, "y": 51.1 },
+      { "name": "Buk San Sa", "x": 46.3, "y": 60.8 },
+      { "name": "Paldo", "x": 39.7, "y": 47.9 },
+      { "name": "Airport", "x": 22.5, "y": 74.2 },
+      { "name": "Yong Cheon", "x": 59.1, "y": 39.4 }
+    ],
+    "deston": [
+      { "name": "Ripton", "x": 47.9, "y": 46.2 },
+      { "name": "Concert", "x": 55.4, "y": 52.0 },
+      { "name": "Buxley", "x": 35.7, "y": 61.1 },
+      { "name": "Arena", "x": 63.3, "y": 39.2 },
+      { "name": "Lodge", "x": 28.4, "y": 28.7 }
+    ]
+  }
+  

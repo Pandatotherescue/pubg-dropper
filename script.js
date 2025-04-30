@@ -9,21 +9,33 @@ mapSelect.addEventListener('change', () => {
   dropDot.style.display = 'none';
 });
 
-function suggestDrop() {
+async function suggestDrop() {
+  const mapName = mapSelect.value;
   const mapContainer = document.getElementById('map-container');
   const width = mapContainer.clientWidth;
   const height = mapContainer.clientHeight;
 
-  const x = Math.random() * width;
-  const y = Math.random() * height;
+  try {
+    const response = await fetch('dropzones.json');
+    const data = await response.json();
 
-  dropDot.style.left = `${x}px`;
-  dropDot.style.top = `${y}px`;
-  dropDot.style.display = 'block';
+    if (data[mapName] && data[mapName].length > 0) {
+      const zones = data[mapName];
+      const zone = zones[Math.floor(Math.random() * zones.length)];
 
-  const xCoord = x.toFixed(2);
-  const yCoord = y.toFixed(2);
+      const x = (zone.x / 100) * width;
+      const y = (zone.y / 100) * height;
 
-  console.log(`x ${xCoord}   :   y ${yCoord}`);
-  coords.innerHTML = `x ${xCoord}   :   y ${yCoord}`;
+      dropDot.style.left = `${x}px`;
+      dropDot.style.top = `${y}px`;
+      dropDot.style.display = 'block';
+      coords.innerHTML = `${zone.name} (${zone.x.toFixed(2)} : ${zone.y.toFixed(2)})`;
+
+    } else {
+      coords.innerHTML = "No drop zones available for this map.";
+    }
+  } catch (error) {
+    console.error("Failed to load dropzones.json", error);
+    coords.innerHTML = "Error loading drop zones.";
+  }
 }
