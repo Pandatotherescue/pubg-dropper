@@ -24,10 +24,15 @@ This tool randomly suggests a drop location on a selected map, making it easier 
 ├── index.html           # Main HTML file
 ├── styles.css           # Styling with PUBG theme
 ├── script.js            # App logic and interactivity
-├── dropzones.json       # (Optional) Predefined drop zones
 └── maps/
     ├── erangel.jpg
     └── miramar.jpg
+    └── sanhok.jpg
+    └── vikendi.jpg
+    └── deston.jpg
+    └── taego.jpg
+    └── karakhin.jpg
+    └── palamo.jpg
 ```
 
 ---
@@ -59,12 +64,6 @@ This tool randomly suggests a drop location on a selected map, making it easier 
 2. Make sure your `maps/` folder contains map images (`erangel.jpg`, `miramar.jpg`).
 3. Open `index.html` in your browser.
 4. Select a map, and hit **Suggest Drop**!
-
----
-
-## 📸 Preview
-
-_(Add a screenshot or screen recording here if you'd like)_
 
 ---
 
