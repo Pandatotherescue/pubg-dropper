@@ -4,6 +4,7 @@ A lightweight web application that helps PUBG players settle the age-old debate 
 
 This tool randomly suggests a drop location on a selected map, making it easier and more fun to jump straight into action without wasting time arguing.
 
+https://pubg-dropper.vercel.app/
 ---
 
 ## 🚀 Features (Current)
